@@ -7,10 +7,12 @@ const Route = ReactRouter.Route
 const hashHistory = ReactRouter.hashHistory
 
 const Landing = require('./Landing')
+const Search = require('./Search')
 
 const App = () => (
   <Router history={hashHistory}>
     <Route path='/' component={Landing} />
+    <Route path='/search' component={Search} />
   </Router>
   )
 
