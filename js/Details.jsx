@@ -12,4 +12,10 @@ class Details extends React.Component {
   }
 }
 
+const { object } = React.PropTypes
+
+Details.propTypes = {
+  params: object
+}
+
 module.exports = Details
