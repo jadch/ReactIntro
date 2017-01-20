@@ -1,6 +1,4 @@
 const React = require('react')
-const ReactDOM = require('react-dom')
-
 const ReactRouter = require('react-router')
 const Router = ReactRouter.Router
 const Route = ReactRouter.Route
@@ -30,4 +28,4 @@ const App = React.createClass({
   }
 })
 
-ReactDOM.render(<App />, document.getElementById('app'))
+module.exports = App
